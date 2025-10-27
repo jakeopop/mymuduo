@@ -1,0 +1,8 @@
+git clone https://gitcode.com/qq_40749335/yolov11-pose-test.git
+git add .
+git commit -m ""
+git branch -m main
+git push -u origin main 
+
+# 强制清理本地无用对象（历史提交、缓存等）
+git gc --aggressive --prune=now
